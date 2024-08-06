@@ -13,7 +13,7 @@ hg38=./toolset/reference/hg38_test/Homo_sapiens_assembly38.fasta
 gatk_bundle_dir=./database/ftp.broadinstitute.org/gsapubftp-anonymous/bundle/hg38
 
 #Check the sequencing platform
-platform=ILLUMINA
+platform=DNBSEQ
 
 #where to perform the analysis, the folder's absolute path
 out_path=/path_to/bwa_analysis
