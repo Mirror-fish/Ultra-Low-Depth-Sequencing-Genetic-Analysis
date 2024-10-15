@@ -1,0 +1,19 @@
+ID	Study	Case	Ctrl
+1	/path_to/outcome/phenocode-Atrial_Fibrillation.tsv.gz	8180	28612
+2	/path_to/outcome/phenocode-Rheumatoid_Arthritis_Asian.tsv.gz	3636	15554
+8	/path_to/outcome/phenocode-Open-angle_glaucoma_autosome.tsv.gz	3980	18815
+11	/path_to/outcome/phenocode-Colorectal_Cancer.tsv.gz	6692	27178
+14	/path_to/outcome/phenocode-Type_2_Diabetes.tsv.gz	36614	155150
+15	/path_to/outcome/phenocode-Smoking_initiation_autosomes_all.tsv.gz	83810	81626
+20	/path_to/outcome/phenocode-Smoking_cessation_autosomes_all.tsv.gz	43163	32884
+25	/path_to/outcome/phenocode-Adolescent_idiopathic_scoliosis_all.tsv.gz	5327	73884
+28	/path_to/outcome/phenocode-Arrhythmia.tsv.gz	17861	194592
+30	/path_to/outcome/phenocode-Asthma.tsv.gz	8216	201592
+32	/path_to/outcome/phenocode-Atopic_dermatitis.tsv.gz	2385	209651
+34	/path_to/outcome/phenocode-Biliary_tract_cancer.tsv.gz	339	195745
+36	/path_to/outcome/phenocode-Cataract.tsv.gz	24622	187831
+
+
+
+
+
