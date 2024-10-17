@@ -1,6 +1,6 @@
 #step2_Gene analysis with SNP p-values
-
 magma=/path_to/magma
+
 #use for SNP and pvalue, ncol for samplesize
 $magma \
 --bfile /path_to/g1000_eas \
