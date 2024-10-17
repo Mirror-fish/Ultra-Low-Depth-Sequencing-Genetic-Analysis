@@ -25,7 +25,7 @@ if [ ! -d ${outdir}/${chr}/${chr_region} ]
 then mkdir -p ${outdir}/${chr}/${chr_region}
 fi
 
-time /share/app/R/4.0.2/bin/Rscript $STITCH_R \
+time /path_to/Rscript $STITCH_R \
 --outputdir ${outdir}/${chr}/${chr_region} \
 --bamlist $bamlist \
 --sampleNames_file $sample_namelist \
