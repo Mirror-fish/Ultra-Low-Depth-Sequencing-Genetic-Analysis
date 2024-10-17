@@ -11,13 +11,13 @@ import os
 chunk_size = int('5000000')
 
 #the folder of working
-outdir='/path_to/3.GWAS_analysis'
+outdir='/path_to/GWAS_analysis'
 
 #the length of each chromosomes, example file was in GRCh38, please change if running on other versions of reference genome
-CHR_length='/path_to/STITCH_analysis'
+CHR_length='/path_to/GWAS_analysis'
 
 #sample names and bam paths, need to match each other
-bamlist='/path_to/STITCH_analysis/bamid.list'
+bamlist='/path_to/GWAS_analysis/bamid.list'
 
 #Reference Genome, should be the same as 01.workflow_bwa.sh
 ref_genome='/path_to/Homo_sapiens_assembly38.fasta'
