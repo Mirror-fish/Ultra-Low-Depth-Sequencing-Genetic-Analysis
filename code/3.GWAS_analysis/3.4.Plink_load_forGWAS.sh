@@ -11,5 +11,5 @@ $plink2 \
 --make-pgen 'vzs' \
 --set-all-var-ids chr@:# \
 --vcf $merge_out dosage=DS \
---out /path_to/3.GWAS_analysis/final/STITCH
+--out /path_to/GWAS_analysis/final/STITCH
 
