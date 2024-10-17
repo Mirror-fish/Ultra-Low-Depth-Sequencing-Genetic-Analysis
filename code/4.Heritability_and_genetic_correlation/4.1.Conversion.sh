@@ -2,8 +2,11 @@
 #After specify the arguments, you can run this code as:
 #bash 4.1.Conversion.sh /path_to/pheno1.add pheno1 /output_folder
 
+#the GWAS output summary statistics
 glm_add=$1
+#the name of the phenotype
 name=$2
+#output folder
 ofile=$3
 
 # mkdir
