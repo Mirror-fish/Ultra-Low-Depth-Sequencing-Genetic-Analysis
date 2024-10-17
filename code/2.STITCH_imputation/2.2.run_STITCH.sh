@@ -25,6 +25,7 @@ if [ ! -d ${outdir}/${chr}/${chr_region} ]
 then mkdir -p ${outdir}/${chr}/${chr_region}
 fi
 
+###Specify the arguments before execute!
 time /path_to/Rscript $STITCH_R \
 --outputdir ${outdir}/${chr}/${chr_region} \
 --bamlist $bamlist \
