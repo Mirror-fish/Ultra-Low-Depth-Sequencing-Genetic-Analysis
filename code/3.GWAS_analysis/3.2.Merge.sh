@@ -3,8 +3,8 @@
 bcftools=/path_to/bcftools
 
 $bcftools concat \
--f /path_to/3.GWAS_analysis/completed_BaseVarC_vcf.list \
+-f /path_to/GWAS_analysis/completed_BaseVarC_vcf.list \
 -Oz \
--o /path_to/3.GWAS_analysis/final/BaseVarC.vcf.gz
+-o /path_to/GWAS_analysis/final/BaseVarC.vcf.gz
 
 
