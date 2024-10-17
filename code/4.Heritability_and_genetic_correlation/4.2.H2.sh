@@ -7,18 +7,6 @@ input_path=$1
 
 input_path=${input_path}/${pheno_name}
 
-# get_size
-sample_size=$(awk 'NR==2{print $2}' ${input_path}/${pheno_name}.ldsc)
-echo "${pheno_name}, sample_size: ${sample_size}"
-
-# ldsc 2 munge
-/path_to/python2.7 \
-/path_to/ldsc-master/munge_sumstats.py \
---sumstats ${input_path}/${pheno_name}.ldsc \
---N $sample_size \
---out ${input_path}/${pheno_name} \
---merge-alleles /path_to/gwas.snplist #extract from summary statistics 
-
 # munge 2 h2
 /path_to/python2.7 \
 /path_to/ldsc-master/ldsc.py \
