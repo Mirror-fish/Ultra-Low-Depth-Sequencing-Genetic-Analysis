@@ -67,7 +67,7 @@ echo ""
 time $gatk BaseRecalibrator \
     -R $hg38 \
     -I $outdir/${sample_id}.sorted.rmdup.bam \
-    --known-sites $gatk_bundle_dir/dbsnp_146.hg38.vcf.gz \
+    --known-sites $gatk_bundle_dir/dbsnp_138.hg38.vcf.gz \
     -O $outdir/${sample_id}.recal_data.table && echo "** BaseRecalibrator done " && touch ${outdir}/baseRecalibrator.finish
 
 if [ ! -f ${outdir}/baseRecalibrator.finish ]
