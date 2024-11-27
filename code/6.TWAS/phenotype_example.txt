@@ -1,0 +1,8 @@
+#IID	pheno1	pheno2
+sample1	0	73.5
+sample2	1	76.4
+sample3	2	70.5
+sample4	1	68.7
+sample5	2	76.4
+sample6	1	76.7
+sample7	2	77.4
