@@ -1,10 +1,10 @@
-mkdir ./Required_reference_data/hg38
-mkdir ./Required_reference_data/gatk-bundle
-mkdir ./Required_reference_data/dbSNP
-mkdir ./Required_reference_data/LDSC
-mkdir ./Required_reference_data/GTEx
-mkdir ./Required_reference_data/BBJ-summary
-mkdir ./Required_reference_data/magma
+mkdir ./Supporting_data/hg38
+mkdir ./Supporting_data/gatk-bundle
+mkdir ./Supporting_data/dbSNP
+mkdir ./Supporting_data/LDSC
+mkdir ./Supporting_data/GTEx
+mkdir ./Supporting_data/BBJ-summary
+mkdir ./Supporting_data/magma
 
 mkdir ./1.Quality_control_and_alignment_of_the_FASTQ_files/final_data
 mkdir ./1.Quality_control_and_alignment_of_the_FASTQ_files/temp_data
