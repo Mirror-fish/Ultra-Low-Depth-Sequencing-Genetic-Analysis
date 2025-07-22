@@ -38,9 +38,9 @@ time /path_to/Rscript $STITCH_R \
 --reference $hg38 \
 --K 10 --nGen 16000 --nCores 1 \ #Please notice, if K = 1, STITCH will return with error
 --regionStart $start --regionEnd $end --chr $chr \
+--posfile /path_to/${chr}.pos.txt \ #please use 1000 Genome's vcf to create posfile
 --buffer 250000 
 #--niterations 40 \
-#--posfile /path_to/${chr}.pos.txt \
 #--reference_sample_file /path_to/eas.${chr}.samples \
 #--reference_legend_file /path_to/eas.${chr}.legend.gz \
 #--reference_haplotype_file /path_to/eas.${chr}.hap.gz
