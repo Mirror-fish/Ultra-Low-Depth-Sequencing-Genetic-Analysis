@@ -7,7 +7,7 @@
 # Please check the input and output and make corresponding modifications before running the code
 
 # directory to the download files
-input_path = '/path_to/Required_reference_data/dbSNP/'
+input_path = '/path_to/Supporting_data/dbSNP/'
 
 outfile = '/path_to/4.Heritability_and_genetic_correlation_analysis/LDSC_ref/chrpos.rs.txt'
 
@@ -15,11 +15,11 @@ outfile = '/path_to/4.Heritability_and_genetic_correlation_analysis/LDSC_ref/chr
 ######################## work ############################
 ##########################################################
 
-chromosomes = os.listdir(input_path)
-
 import pandas as pd
 import numpy as np
 import os
+
+chromosomes = os.listdir(input_path)
 
 all_chrom = []
 
