@@ -10,6 +10,7 @@ bamlist=/path_to/2.Genotype_imputation_using_STITCH/bamid.list
 outdir=/path_to/2.Genotype_imputation_using_STITCH/output
 
 #Reference Genome, should be the same as 01.workflow_bwa.sh
+#Please notice that fasta file should be indexed
 hg38=/path_to/Required_reference_data/hg38/hg38.fa.masked.gz
 
 #Before starting STITCH, please make sure you have correctly installed STITCH in your environment
