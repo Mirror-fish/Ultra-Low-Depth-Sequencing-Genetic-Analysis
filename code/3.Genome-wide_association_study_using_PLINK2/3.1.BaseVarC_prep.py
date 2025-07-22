@@ -11,7 +11,7 @@ import os
 chunk_size = int('5000000')
 
 #the folder of working
-outdir='/path_to/3.Genome-wide_association_study_using_PLINK2'
+outdir='/path_to/3.Genome-wide_association_study_using_PLINK2'/output
 
 #the length of each chromosomes, example file was in GRCh38, please change if running on other versions of reference genome
 CHR_length='/path_to/2.Genotype_imputation_using_STITCH/CHR.len'
@@ -22,7 +22,7 @@ bamlist='/path_to/2.Genotype_imputation_using_STITCH/bampath.list'
 #Reference Genome, should be the same as 01.workflow_bwa.sh
 ref_genome='/path_to/Required_reference_data/hg38/hg38.fa.masked.gz'
 
-#the path to path of BaseVarC
+#the path to BaseVarC
 Basevar='/path_to/BaseVarC'
 
 ######################################
