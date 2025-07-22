@@ -14,8 +14,8 @@ chunk_size = int('5000000')
 outdir='/path_to/2.Genotype_imputation_using_STITCH/bash'
 
 #sample names and bam paths, need to match each other
-sample_namelist='/path_to/2.Genotype_imputation_using_STITCH/bampath.list'
-bamlist='/path_to/2.Genotype_imputation_using_STITCH/bamid.list'
+sample_namelist='/path_to/2.Genotype_imputation_using_STITCH/bamid.list'
+bamlist='/path_to/2.Genotype_imputation_using_STITCH/bampath.list'
 
 #the length of each chromosomes, example file was in GRCh38, please change if running on other versions of reference genome
 CHR_length='/path_to/2.Genotype_imputation_using_STITCH/CHR.len'
