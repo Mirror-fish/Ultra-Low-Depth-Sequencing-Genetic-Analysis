@@ -7,6 +7,7 @@ samtools=/path_to/samtools
 fastp=./path_to/fastp-0.23.2/fastp
 
 ### Reference Genome
+#Please notice! You should index the reference genome (use bwa index) before using it!
 hg38=/path_to/Required_reference_data/hg38/hg38.fa.masked.gz
 
 ### GATK bundle
