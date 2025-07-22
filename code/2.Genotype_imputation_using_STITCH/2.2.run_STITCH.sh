@@ -46,7 +46,7 @@ time /path_to/Rscript $STITCH_R \
 #--reference_haplotype_file /path_to/eas.${chr}.hap.gz
 
 
-$bcftools index -t ${outdir}/${chr}/${chr_region}/${chr}/${chr_region}/stitch.${chr}.${start}.${end}.vcf.gz
+$bcftools index -t ${outdir}/${chr}/${chr_region}/stitch.${chr}.${start}.${end}.vcf.gz
 
 rm -rv  ${outdir}/${chr}/${chr_region}/input \
 && touch  ${outdir}/${chr}/${chr_region}/input.removed
