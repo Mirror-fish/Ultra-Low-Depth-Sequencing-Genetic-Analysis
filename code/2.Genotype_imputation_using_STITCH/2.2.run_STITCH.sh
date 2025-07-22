@@ -36,7 +36,7 @@ time /path_to/Rscript $STITCH_R \
 --bamlist $bamlist \
 --sampleNames_file $sample_namelist \
 --reference $hg38 \
---K 10 --nGen 16000 --nCores 1 \
+--K 10 --nGen 16000 --nCores 1 \ #Please notice, if K = 1, STITCH will return with error
 --regionStart $start --regionEnd $end --chr $chr \
 --buffer 250000 
 #--niterations 40 \
